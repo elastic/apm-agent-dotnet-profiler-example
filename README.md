@@ -26,7 +26,7 @@ of the profiler auto instrumentation for the .NET APM agent.
 4. Make a request to the ASP.NET Core API
 
    ```
-   curl -XPOST https://localhost:5000/messages/bulk -H 'Content-Type: application/json' -d '
+   curl -XPOST http://localhost:5000/messages/bulk -H 'Content-Type: application/json' -d '
    [{"value":"message 1"},
    {"value":"message 2"},
    {"value":"message 3"},
