@@ -36,7 +36,7 @@ of the profiler auto instrumentation for the .NET APM agent.
    ```
 5. Check that the messages were sent to Kafka by the API, and consumed from Kafka by the console application, by checking
    ```
-   curl -XGET https://localhost:5000/messages
+   curl -XGET http://localhost:5000/messages
    ```
    which should yield an array of the sent messages.
 6. Navigate to the APM UI in the Kibana instance that is part of the Elastic Stack deployment.
